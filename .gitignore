@@ -1,0 +1,28 @@
+# a comment - this is ignored
+# no .a files
+*.a
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+# only ignore THE root TODO file,   not subdir/TODO
+/TODO
+# ignore all files in the build/ directory
+Cloud SDK/
+Documents/
+README.md
+Requerments Michael
+Run.bat
+Sunkey/
+bq/
+QA/
+R/
+!/bq/bigquery.py
+!/bq/Stream.py
+
+ez_install.py
+setuptools-5.6.zip
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+# ignore all .txt files in the doc/ directory 
+doc/**/*.txt
+# Stage demo
